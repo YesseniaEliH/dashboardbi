@@ -1,0 +1,84 @@
+body,html{
+    margin:0px;
+    font-family: 'Roboto Slab', serif;
+    font-size:4vw;
+    background-color:powderblue;
+}
+body{width:90%;padding-left:5%;padding-right:5%}
+input,select{width:80%}
+
+input[type=submit]{margin:auto;}
+
+input[type=checkbox]{width:5%;zoom:1.5}
+
+input[type=radio]{width:5%;zoom:1.25}
+
+label{
+    color: navy;
+    font-size: 4vw;
+}
+
+select:focus,input[type=text]:focus{
+    border-color:navy;
+}
+
+
+#cronometro{
+    position: fixed;
+    top: 7.5%;
+    right: 0px;
+    background-color: royalblue;
+    font-weight: bold;
+	font-size: 4vw;
+    text-align: center;
+    color: lightcyan;
+    padding: 1%;
+    border: 2px deepskyblue solid;
+    border-radius: 4px;
+    margin:0.5%;
+    overflow: hidden;
+    opacity: 0.6;
+}
+
+#cronometro p{
+    margin: 0;
+}
+
+input[type=submit]{
+    width: 50%;
+    padding: 2% 0%;
+    border: 1px deepskyblue solid;
+    border-radius: 4px;
+    background-color: navy;
+    color: powderblue;
+    font-size: 5vw;
+    text-align: center}
+
+#correccion{text-align: center}
+
+/*-----------*/
+
+#notaFinal{
+    display: none;
+    background-color: khaki;
+    padding: 1%;
+    margin-top: 3%;
+    border: 2px gold solid;
+    border-radius: 4px;
+}
+
+p{
+    font-size:4vw;
+    color:navy;
+}
+
+#logo{
+    text-align:center;
+    width:100%;
+    padding:1% 0%;
+    background-color:powderblue;
+}
+
+#logoimg{
+    max-width: 90%;
+}
